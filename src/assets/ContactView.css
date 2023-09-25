@@ -1,0 +1,104 @@
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+div.v-if {
+  margin-top: 20px;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+  div {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 8px;
+    font-size: 1em;
+  }
+
+  button[type="submit"] {
+    padding: 8px 16px;
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
